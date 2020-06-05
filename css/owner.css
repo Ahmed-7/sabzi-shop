@@ -1,0 +1,88 @@
+*::before, *::after, *:hover {
+    transition: all .2s ease-in-out;
+ }
+ 
+.img-me{
+ 
+    padding: 20px;
+}
+h5,h4{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+h3{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.container{
+    
+}
+.img-me{
+    width: 500px;
+}
+#header{
+  
+    background-color: #F3F3F3;
+}
+ main .h3{
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Tenali Ramakrishna', sans-serif;
+text-align: center;
+letter-spacing: 5px;
+
+}
+.web-icon{
+    
+   
+}
+.certificate,.certificate-img{
+
+    
+
+}
+.service-1:hover{
+  background-color:#135796;
+  color: #ffffffe5;
+}
+.service-2:hover{
+    background-color:#135796;
+    color: #ffffffe5;
+  }
+  .service-3:hover{
+    background-color:#135796;
+    color: #ffffffe5;
+  }
+.card{
+    text-align: center;
+    width: auto;
+    height: 300px;
+}
+.card-body{
+    margin-top: 20%;
+}
+.web-designer:hover,.logo-maker:hover,.photo-edit:hover{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  
+}
+@media screen and (max-width:480px){
+  .img-me{
+      width: 300px;
+  }
+  .portf{
+    margin-left: 200px;
+}
+}
+
+@media (min-width: 481px) and (max-width:768px) { 
+
+.web{
+    margin-bottom: 100px;
+}
+
+}

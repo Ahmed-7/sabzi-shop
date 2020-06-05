@@ -1,0 +1,271 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:0px;
+    right: 0px;
+}
+*::before, *::after {
+  transition: all .3s ease-in-out;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    left:0px;
+    right: 0px;
+}
+header{
+    background-image: url(../images/header.jpg);
+    height: 70vh;
+}
+
+.header{
+    background-color:  rgba(15, 15, 15, 0.637);
+    height: 70vh;
+}
+.header-content{
+   
+    margin-top: 130px;
+}
+.h-prim{
+    padding-bottom: 12px;
+}
+.h-secondary{
+   
+     font-size: 25px;
+     color: azure;
+     display: block;
+     animation: moveInRight 1s ease-out;
+     margin-bottom: 5%;
+    
+ }
+ .h-prim{
+   
+    font-size:55px;
+    color: azure;
+    animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden;
+  display: block;
+}
+.logo-box{
+  padding-top: 45px;
+}
+.logo{
+    border: 7px solid grey;
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 20px;
+    animation: toUpWord 1.3s ease-out;
+    backface-visibility: hidden;
+    display: block;
+}
+header .container{
+    padding:0% 7%;
+}
+#deals{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+#deals .container-fluid{
+    padding-left: 12%;
+  }
+  #deals input{
+    width:50px;
+}
+
+.subs{
+    padding-bottom: 3%;
+  }
+  .boton{
+   margin-left: 38px;
+    padding-top: 3%;
+  }
+
+/* iphhone 6,7,8 */
+@media  (min-width:320px) and (max-width:480px){
+    .logo-box{
+        padding-top: 14px;
+        text-align: center;
+        margin-left: 15px;
+        
+        
+    }
+    .logo{
+        border: 7px solid grey;
+        border-radius: 50%;
+        width: 250px;
+        margin-top: 9px;
+        margin-left: 15px;
+        animation: toUpWord 1.3s ease-out;
+        backface-visibility: hidden;
+        display: block;
+        
+    }
+    .products{
+        margin-left: 22px;
+        padding-left: 15px;
+    }
+    .header-content{
+        
+        margin-top: 2px;
+        text-align: center;
+    }
+    #deals{
+
+      padding-top: 20px;
+
+    }
+    .h-prim{
+   
+        font-size:43px;
+        color: azure;
+        animation: moveInLeft 1s ease-out;
+      backface-visibility: hidden;
+      display: block;
+    }
+}
+#Gallery-2{
+    background-color: #EAEAEA;
+}
+#Gallery-2 .container-fluid{
+  padding: 3% 13%;
+}
+#Gallery-2 .card{
+  width:290px;
+  height: 450px;
+}
+#Gallery-2 h1{
+  padding-top:2%;
+}
+#footer h5{
+    color: #52970c;
+  }
+  .advantages{
+      padding-left: 40px;
+  }
+/* Tablet Devices */
+@media (min-width: 767px) and (max-width:992px) { 
+    header{
+        background-image: url(../images/header.jpg);
+        height: 40vh;
+    }
+    
+    .header{
+        background-color:  rgba(15, 15, 15, 0.637);
+        height: 40vh;
+    }
+    .header-content{
+       
+        text-align: center;
+      
+    }
+    #deals{
+        padding-top: 12%;
+        padding-bottom: 3%;
+        padding-top: 12%;
+    }
+    #deals .container-fluid{
+        padding-left: 12%;
+      }
+      #deals input{
+        width:50px;
+    }
+    
+    .subs{
+        padding-bottom: 3%;
+      }
+      .boton{
+        margin-left: 38px;
+        padding-top: 3%;
+      }
+    .h-prim{
+   
+        font-size:43px;
+        padding-bottom: 20px;
+        color: azure;
+        animation: moveInLeft 1s ease-out;
+      backface-visibility: hidden;
+      display: block;
+    }
+    .h-secondary{
+        padding-top: 2%;
+         font-size: 20px;
+         color: azure;
+         display: block;
+         animation: moveInRight 1s ease-out;
+         margin-bottom: 5%;
+        
+     }
+}
+/* Ipad Pro */
+@media (min-width:993px) and (max-width:1024px){
+    header{
+        background-image: url(../images/header.jpg);
+        height: 30vh;
+    }
+    .header{
+        background-color:  rgba(15, 15, 15, 0.637);
+        height: 30vh;
+    }
+    .header-content{
+       
+        text-align: center;
+        border: 2px solid red;;
+    }
+}
+
+/* Key frames */
+@keyframes moveInLeft{
+
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    80%{
+      transform: translateX(10px);
+    }
+  
+    100%{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  
+  }
+  @keyframes toUpWord{
+    0%{
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  80%{
+    opacity: 0.8;
+  
+  }
+  
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes moveInRight{
+
+    0%{
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    80%{
+      transform: translateX(-10px);
+    }
+  
+    100%{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  
+  }
+ 
+  
